@@ -14,18 +14,18 @@
         android:layout_height="wrap_content"
         android:text="선택을 시작하겠습니까?"></TextView>
 
-    <CheckBox
+    <Switch
         android:id="@+id/chk"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="시작함"></CheckBox>
+        android:text="시작함"></Switch>
 
     <TextView
         android:id="@+id/tx2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        android:text="좋아하는 애완 동물은?"></TextView>
+        android:text="좋아하는 안드로이드 버전은?"></TextView>
 
     <RadioGroup
         android:id="@+id/rg1"
@@ -37,33 +37,40 @@
             android:id="@+id/dog"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="강아지"></RadioButton>
+            android:text="오리오 (8.0)"></RadioButton>
 
         <RadioButton
             android:id="@+id/cat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="고양이"></RadioButton>
+            android:text="파이 (9.0)"></RadioButton>
 
         <RadioButton
             android:id="@+id/rabbit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="토끼"></RadioButton>
+            android:text="Q (10.0)"></RadioButton>
 
     </RadioGroup>
-
-    <Button
-        android:id="@+id/btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="invisible"
-        android:text="선택완료"></Button>
 
     <ImageView
         android:id="@+id/img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"></ImageView>
+
+    <Button
+        android:id="@+id/btnend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="종료"></Button>
+
+    <Button
+        android:id="@+id/btnre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="처음으로"></Button>
 
 </LinearLayout>
