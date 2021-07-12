@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        setTitle("애완동물 사진 보기");
+        setTitle("안드로이드 사진 보기");
 
         tx1 = findViewById(R.id.tx1);
         tx2 = findViewById(R.id.tx2);
